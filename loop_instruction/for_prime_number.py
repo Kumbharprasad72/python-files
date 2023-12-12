@@ -26,7 +26,7 @@ n=int(input("Enter a number:"))
 for i in range(2,n,1):
     r=n%i
 
-    if n==0:
+    if r==0:
         print(n,"is non-prime number")
         break
 else:
